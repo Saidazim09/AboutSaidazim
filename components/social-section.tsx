@@ -8,7 +8,7 @@ const socials = [
     name: "Instagram",
     handle: "@vekin_verified",
     url: "https://www.instagram.com/vekin_verified/",
-    description: "Daily tech content, behind-the-scenes dev life, and Uzbekistan tech community.",
+    description: "Har kunlik texnologik yangiliklar, dasturlash jarayonlari (dev life, loyiha yaratish davomidagi backstage tasvirlar) va texnologiya bilan bog'liq qiziqarli kontent uchun Instagram sahifamga tashrif buyuring.",
     cta: "FOLLOW",
     color: "from-pink-500/20 to-purple-500/20",
     borderColor: "border-pink-500/30",
@@ -22,8 +22,8 @@ const socials = [
     name: "Telegram (Personal)",
     handle: "t.me/vekin_officixl",
     url: "https://t.me/vekin_officixl",
-    description: "Direct messages, project updates, and quick tech discussions. DMs open.",
-    cta: "MESSAGE",
+    description: "Shaxsiy xabarlar, loyiha yangiliklari va texnologik muhokamalar. Savollaringiz uchun doim ochiqman.",
+    cta: "XABAR YUBORING",
     color: "from-blue-500/20 to-cyan-500/20",
     borderColor: "border-blue-500/30",
     icon: (
@@ -36,7 +36,7 @@ const socials = [
     name: "YouTube",
     handle: "@vekin_official",
     url: "https://www.youtube.com/@vekin_official",
-    description: "Tech tutorials, project walkthroughs, and coding content in Uzbek & Russian.",
+    description: "Texnik qo‘llanmalar, loyihalar tahlili va dasturlashga oid videolar — o‘zbek va ingliz tillarida.",
     cta: "SUBSCRIBE",
     color: "from-red-500/20 to-orange-500/20",
     borderColor: "border-red-500/30",
@@ -50,8 +50,8 @@ const socials = [
     name: "Tuynuk Market",
     handle: "t.me/tuynuk_market",
     url: "https://t.me/tuynuk_market",
-    description: "Official Telegram channel for Tuynuk Market — daily deals on electronics & appliances.",
-    cta: "JOIN CHANNEL",
+    description: "Tuynuk Market’ning rasmiy Telegram kanali — elektronika va maishiy texnika mahsulotlari uchun kundalik manfaatli takliflar.",
+    cta: "KANALGA OBUNA BO'LING",
     color: "from-emerald-500/20 to-green-500/20",
     borderColor: "border-emerald-500/30",
     icon: (
@@ -64,7 +64,7 @@ const socials = [
     name: "Threads",
     handle: "@vekin_verified",
     url: "https://www.threads.net/@vekin_verified",
-    description: "Short thoughts, tech takes, and quick updates from VEKIN.",
+    description: "VEKIN’dan qisqa fikrlar, texnologik qarashlar va tezkor yangiliklar.",
     cta: "FOLLOW",
     color: "from-gray-500/20 to-slate-500/20",
     borderColor: "border-gray-500/30",
@@ -78,8 +78,8 @@ const socials = [
     name: "Email",
     handle: "vekinreacts@gmail.com",
     url: "mailto:vekinreacts@gmail.com",
-    description: "For business inquiries, collaboration proposals, or just saying hello.",
-    cta: "EMAIL ME",
+    description: "Biznes takliflar, hamkorlik masalalari yoki shunchaki fikr almashish uchun.",
+    cta: "XABAR YUBORING",
     color: "from-yellow-500/20 to-amber-500/20",
     borderColor: "border-yellow-500/30",
     icon: <Mail className="w-6 h-6 text-yellow-400" />,
@@ -98,12 +98,12 @@ export function SocialSection() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          <p className="text-neon text-sm font-mono mb-2">// 05. SOCIAL MEDIA</p>
+          <p className="text-neon text-sm font-mono mb-2">// 05. IJTIMOIY TARMOQLARIM</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Find me <span className="text-neon text-glow-neon">Online</span>
+            Ijtimoiy Tarmoqdagi <span className="text-neon text-glow-neon">SAHIFALARIM</span>
           </h2>
           <p className="text-muted-foreground max-w-xl text-sm text-pretty">
-            Connect with VEKIN across platforms — tech content, project updates, and direct contact.
+            Barcha platformalar orqali VEKIN bilan bog‘laning — texnologik kontentlar, loyiha yangiliklari va to‘g‘ridan-to‘g‘ri muloqot.
           </p>
         </motion.div>
 

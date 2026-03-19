@@ -60,7 +60,7 @@ export function ConnectSection() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          <p className="text-neon text-sm font-mono mb-2">// 07. CONTACT</p>
+          <p className="text-neon text-sm font-mono mb-2">// 07. BOG'LANISH</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
             Let's <span className="text-neon text-glow-neon">Connect</span>
           </h2>

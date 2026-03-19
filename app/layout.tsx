@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       },
       {
         url: '/main_favicon.jpg',
-        type: 'image/svg+xml',
+        type: 'image/jpeg',
       },
     ],
     apple: '/mac_favicon.jpg',

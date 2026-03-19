@@ -5,12 +5,12 @@ import { User, Zap, Calendar, MapPin, GraduationCap, Cpu } from "lucide-react"
 import Image from "next/image"
 
 const infoCards = [
-  { icon: User, label: "Full Name", value: "Saidazim Muqumjonov Ilyosbek o'g'li", color: "text-yellow-400" },
-  { icon: Zap, label: "Nickname", value: "VEKIN", color: "text-yellow-400" },
-  { icon: Calendar, label: "Date of Birth", value: "April 20, 2009", color: "text-blue-400" },
-  { icon: MapPin, label: "Hometown", value: "Andijon, Uzbekistan", color: "text-neon", hasLink: true },
-  { icon: MapPin, label: "Current Location", value: "Baliqchi district, UZ", color: "text-red-400", hasLink: true },
-  { icon: GraduationCap, label: "Education Goal", value: "NewUU — AI & Robotics Faculty", color: "text-pink-400" },
+  { icon: User, label: "To'liq Ismim", value: "Saidazim Muqumjonov Ilyosbek o'g'li", color: "text-yellow-400" },
+  { icon: Zap, label: "Tahallusim (Nickname)", value: "VEKIN", color: "text-yellow-400" },
+  { icon: Calendar, label: "Tug'ilgan Sanam", value: "April 20, 2009", color: "text-blue-400" },
+  { icon: MapPin, label: "Yashash Joyim", value: "Andijon, Uzbekistan", color: "text-neon", hasLink: true },
+  { icon: MapPin, label: "Joriy Manzilim", value: "Baliqchi tumani, UZ", color: "text-red-400", hasLink: true },
+  { icon: GraduationCap, label: "Ta'limdagi Maqsadim", value: "NewUU — AI & Robotics Faculty", color: "text-pink-400" },
 ]
 
 export function AboutSection() {
@@ -25,7 +25,7 @@ export function AboutSection() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          <p className="text-neon text-sm font-mono mb-2">// 01. ABOUT</p>
+          <p className="text-neon text-sm font-mono mb-2">// 01. MEN Haqimda</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
             Who is <span className="text-neon text-glow-neon">VEKIN?</span>
           </h2>
@@ -54,7 +54,7 @@ export function AboutSection() {
                 {/* Name overlay */}
                 <div className="absolute bottom-4 left-4 right-4">
                   <h3 className="text-xl font-bold">Saidazim Muqumjonov</h3>
-                  <p className="text-neon text-sm font-mono">@VEKIN // AI Engineer & Founder</p>
+                  <p className="text-neon text-sm font-mono">@VEKIN // AI Muhandisi & Co-Founder</p>
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@ export function AboutSection() {
             <div className="glass-card rounded-xl p-4 border border-border/50">
               <p className="text-xs text-neon font-mono mb-2">{'>'}_ VEKIN.explain()</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                <span className="text-foreground font-medium">VEKIN</span> is my cyber identity. What  once  started as a  simple  gaming nickname has  transformed  into the name I proudly  carry throughout the digital  universe. It stands for  creativity, technical  curiosity, and the drive to build. From virtual worlds to real code and startups — I exist and  create in the cyber space as VEKIN.
+                <span className="text-foreground font-medium">VEKIN</span> — bu mening Kiber-Pasportim. Bir paytlar oddiygina o'yin tahallusi sifatida boshlangan bu nom, bugun men raqamli koinotda faxr bilan olib yuradigan nomga aylandi. U ijodkorlik, texnik qiziquvchanlik va yaratishga bo'lgan intilishni anglatadi. Virtual olamlardan tortib, real kodlar va startaplargacha — men kiber-makonda VEKIN sifatida mavjudman va ijod qilaman.
               </p>
             </div>
           </motion.div>
@@ -84,13 +84,13 @@ export function AboutSection() {
             {/* Bio Text */}
             <div className="space-y-3">
               <p className="text-muted-foreground leading-relaxed">
-                I'm a <span className="text-neon font-medium">17-year-old AI Engineer & Creative Developer</span> from Baliqchi district, Uzbekistan. My journey into tech started early — I've been building websites, learning Python, and exploring hardware since I was 11.
+                <span className="text-neon font-medium">Men 17 yoshli sun'iy intellekt muhandisi (AI Engineer) va kreativ dasturchiman (Creative Developer)</span>. O'zbekistonning Andijon, Baliqchi tumanidanman. Texnologiyalar olamiga qadamim juda erta boshlangan — 11 yoshimdan buyon Raqamli texnologiyalarni o'rganaman, Innovatsion va Biznes loyihalarda va qurilmalar (hardware) bilan ishlashga qiziqaman.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I'm currently preparing to enter <span className="text-neon font-medium">New Uzbekistan University (NewUU)</span> to study AI & Robotics — the field I believe will define the next century. Alongside my studies, I co-founded <span className="text-neon font-medium">Tuynuk Market</span>, a modern e-commerce marketplace for household appliances and electronics in Uzbekistan.
+               Hozirgi kunda kelajak Asrini(yuz yilligini) belgilab beruvchi soha — Sun’iy intellekt va Robototexnika<span className="text-neon font-medium">(AI Engineering & Robotics)</span> yo‘nalishi bo‘yicha tahsil olish uchun <span className="text-neon font-medium">New Uzbekistan University (Yangi O‘zbekiston universiteti — NewUU)</span>ga kirishga tayyorgarlik ko‘rmoqdaman. O‘qish bilan bir qatorda, O‘zbekistondagi Zamonaviy texnikalar, maishiy texnika va elektronika mahsulotlarining zamonaviy onlayn savdo platformasi — <span className="text-neon font-medium">Tuynuk Market</span> loyihasiga ham asos soldim.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                My core interests span <span className="text-neon">Cybersecurity</span>, <span className="text-neon">Software Development</span>, and <span className="text-neon">AI & Robotics</span>. I believe in building real things — not just learning theory.
+                Asosiy qiziqishlarim — <span className="text-neon font-medium">Kiberxavfsizlik(Cybersecurity)</span>,<span className="text-neon font-medium"> Dasturchilik(Software Developing)</span> hamda <span className="text-neon font-medium">Sun'iy Intellekt va Robototexnika(AI Engineering & Robotics)</span> sohalarini qamrab oladi. Men faqat nazariyani o‘rganishga emas, balki real loyihalarni hayotga tatbiq etishga ishonaman.
               </p>
             </div>
 
@@ -126,7 +126,6 @@ export function AboutSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          // 129-qatorni shunday o'zgartiring:
           className="glass-card rounded-xl p-5 mt-4 mx-4 md:mx-0 relative overflow-hidden border border-dashed border-white/10 w-auto md:col-span-2"
           >
           <div className="flex items-center gap-4">
@@ -135,14 +134,14 @@ export function AboutSection() {
             </div>
             <div className="flex-1">
               <h3 className="text-lg font-bold">{`About Saidazim's Family`}</h3>
-              <p className="text-muted-foreground text-sm">Personal Life</p>
+              <p className="text-muted-foreground text-sm">Shaxsiy Hayotim</p>
             </div>
             <motion.span
               animate={{ opacity: [0.6, 1, 0.6] }}
               transition={{ duration: 2, repeat: Infinity }}
               className="px-3 py-1 bg-neon/20 text-neon text-sm font-medium rounded-full"
             >
-              Coming Soon...
+              Tez kunlarda...
             </motion.span>
           </div>
           

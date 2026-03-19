@@ -5,10 +5,10 @@ import { GraduationCap, Globe, Zap, Rocket, ExternalLink, Heart, User } from "lu
 import Image from "next/image"
 
 const whyNewUU = [
-  { icon: "🎓", text: "World-class AI & Robotics curriculum" },
-  { icon: Globe, text: "International partnerships and research labs" },
-  { icon: Zap, text: "Cutting-edge technology infrastructure" },
-  { icon: Rocket, text: "Direct pathway to AI engineering career" },
+  { icon: "🎓", text: "Dunyo darajasidagi AI va robototexnika o'quv dasturi" },
+  { icon: Globe, text: "Xalqaro hamkorlik va tadqiqot laboratoriyalari" },
+  { icon: Zap, text: "Eng zamonaviy texnologiya infratuzilmasi" },
+  { icon: Rocket, text: "AI muhandislik karerasiga to'g'ridan-to'g'ri yo'l" },
 ]
 
 export function FutureGoalsSection() {
@@ -23,9 +23,9 @@ export function FutureGoalsSection() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          <p className="text-neon text-sm font-mono mb-2">// 02. FUTURE GOALS</p>
+          <p className="text-neon text-sm font-mono mb-2">// 02. KELAJAKDAGI MAQSADLARIM</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Where I'm <span className="text-neon text-glow-neon">Headed</span>
+            Oldindagi <span className="text-neon text-glow-neon">Rejalarim</span>
           </h2>
         </motion.div>
 
@@ -78,13 +78,13 @@ export function FutureGoalsSection() {
                 </div>
                 <p className="text-xs text-neon font-mono">Artificial Intelligence · Robotics · Machine Learning</p>
                 <p className="text-muted-foreground text-xs mt-2 leading-relaxed">
-                  Planning to study at New Uzbekistan University (NewUU) in the AI & Robotics faculty — the most cutting-edge program in Uzbekistan, focused on building the next generation of AI engineers and robotics specialists.
+                  O‘zbekistondagi eng zamonaviy va ilg‘or dasturlardan biri — New Uzbekistan University (NewUU)ning Sun’iy intellekt va Robototexnika fakultetida(AI Engineering & Robotics) tahsil olishni rejalashtirganman. Ushbu yo‘nalish yangi avlod sun’iy intellekt muhandislari va robototexnika mutaxassislarini tayyorlashga qaratilgan.
                 </p>
               </div>
 
               {/* Why NewUU */}
               <div className="mb-4">
-                <p className="text-xs text-muted-foreground font-mono mb-2">{'>'}_ why_newuu[]</p>
+                <p className="text-xs text-muted-foreground font-mono mb-2">{'>'}_ Nega aynan_NewUU[]</p>
                 <div className="space-y-2">
                   {whyNewUU.map((item, i) => (
                     <div key={i} className="flex items-center gap-2">
@@ -129,16 +129,16 @@ export function FutureGoalsSection() {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-2 mt-3">
                 <div className="text-center p-2 bg-secondary/30 rounded-lg">
-                  <p className="text-lg font-bold text-neon">2026</p>
-                  <p className="text-[10px] text-muted-foreground font-mono">Target Year</p>
+                  <p className="text-lg font-bold text-neon">2027</p>
+                  <p className="text-[10px] text-muted-foreground font-mono">Maqsad qilingan yil</p>
                 </div>
                 <div className="text-center p-2 bg-secondary/30 rounded-lg">
                   <p className="text-lg font-bold text-neon">AI</p>
-                  <p className="text-[10px] text-muted-foreground font-mono">Faculty</p>
+                  <p className="text-[10px] text-muted-foreground font-mono">Fakulteti</p>
                 </div>
                 <div className="text-center p-2 bg-secondary/30 rounded-lg">
                   <p className="text-lg font-bold text-neon">#1</p>
-                  <p className="text-[10px] text-muted-foreground font-mono">In UZ</p>
+                  <p className="text-[10px] text-muted-foreground font-mono">UZBda</p>
                 </div>
               </div>
 
@@ -151,7 +151,7 @@ export function FutureGoalsSection() {
                 whileTap={{ scale: 0.99 }}
                 className="flex items-center justify-center gap-2 w-full mt-3 px-4 py-2.5 border border-neon/50 text-neon text-sm font-medium rounded-lg hover:bg-neon/10 transition-colors"
               >
-                VISIT NEWUU WEBSITE
+                NEWUU WEBSAYTIGA KIRISH
                 <ExternalLink size={14} />
               </motion.a>
             </div>

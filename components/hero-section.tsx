@@ -77,7 +77,7 @@ export function HeroSection() {
               transition={{ delay: 0.9 }}
               className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl text-pretty"
             >
-              Future AI Engineer & Creative Developer | Tuynuk Market Co-Founder
+              Kelajakdagi AI Engineer & Creative Developer | Tuynuk Market Co-Founder
             </motion.p>
 
             {/* CTA Button */}
@@ -91,7 +91,7 @@ export function HeroSection() {
               className="inline-flex items-center gap-2 px-8 py-4 bg-neon text-primary-foreground font-semibold rounded-xl glow-neon hover:glow-neon-lg transition-all duration-300"
             >
               <MessageCircle size={20} />
-              Message Me
+            Xabar Yozing
             </motion.a>
           </motion.div>
 
@@ -152,7 +152,7 @@ export function HeroSection() {
             transition={{ duration: 1.5, repeat: Infinity }}
             className="flex flex-col items-center gap-2 text-muted-foreground"
           >
-            <span className="text-sm">Scroll Down</span>
+            <span className="text-sm">Pastroqqa Ham Tushing</span>
             <ChevronDown size={20} className="text-neon" />
           </motion.div>
         </motion.div>

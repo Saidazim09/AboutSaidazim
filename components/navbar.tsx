@@ -5,12 +5,12 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
 
 const navItems = [
-  { name: "HOME", href: "#home" },
-  { name: "ABOUT ME", href: "#about" },
-  { name: "SKILLS", href: "#skills" },
-  { name: "PROJECTS", href: "#projects" },
-  { name: "SOCIAL MEDIA", href: "#social" },
-  { name: "CONTACT", href: "#connect" },
+  { name: "ASOSIY", href: "#home" },
+  { name: "MEN HAQIMDA", href: "#about" },
+  { name: "QOBILYATLARIM", href: "#skills" },
+  { name: "LOYIHALARIM", href: "#projects" },
+  { name: "IJTIMOIY TARMOQLAR", href: "#social" },
+  { name: "BOG'LANISH", href: "#connect" },
 ]
 
 export function Navbar() {
@@ -101,7 +101,7 @@ export function Navbar() {
                 whileTap={{ scale: 0.97 }}
                 className="px-5 py-2 text-xs font-bold font-mono tracking-wider border border-neon text-neon rounded-lg hover:bg-neon/10 transition-all glow-neon-sm"
               >
-                MESSAGE ME
+                XABAR YOZISH
               </motion.a>
             </div>
 
@@ -148,7 +148,7 @@ export function Navbar() {
                 className="mt-4 px-6 py-3 bg-neon text-primary-foreground font-bold rounded-lg glow-neon-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                MESSAGE ME
+                XABAR YOZISH
               </motion.a>
             </div>
           </motion.div>

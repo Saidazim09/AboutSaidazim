@@ -34,9 +34,9 @@ export function VideosSection() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          <p className="text-neon text-sm font-mono mb-2">// 06. VIDEOS</p>
+          <p className="text-neon text-sm font-mono mb-2">// 06. VIDEOlar</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            Featured <span className="text-neon text-glow-neon">Videos</span>
+            <span className="text-red-500 text-glow-red">Youtube</span> <span className="text-neon text-glow-neon">Videolar</span>
           </h2>
           <p className="text-muted-foreground text-sm">
             Watch my latest content on <a href="https://www.youtube.com/@vekin_official" target="_blank" rel="noopener noreferrer" className="text-neon hover:underline">@vekin_official</a>

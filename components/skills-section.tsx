@@ -6,41 +6,41 @@ import { Sparkles, Globe, Zap, Brain, Shield, Wrench } from "lucide-react"
 const skills = [
   {
     name: "Python",
-    level: "Advanced",
+    level: "Rivojlangan",
     percentage: 91,
-    description: "Backend scripting, automation, data processing, AI/ML experiments. 3+ years hands-on. My strongest language — used for everything from bots to AI projects.",
+    description: "Backend skriptlar yozish, avtomatlashtirish, ma’lumotlarga ishlov berish hamda Sun’iy intellekt va Mashinali o‘rganish (AI/ML) sohasidagi tajribalar. 3 yildan ortiq amaliy tajriba. Bu mening eng kuchli dasturlash tilim — botlardan tortib AI loyihalarigacha bo‘lgan barcha yo‘nalishlarda aynan shu tildan foydalanaman. (Pythonga muqobil C++ va kelajakda C++ni ham o'rganmoqchiman)",
     icon: Sparkles,
     primary: true,
   },
   {
     name: "HTML, CSS & JavaScript",
-    level: "Expert",
+    level: "Ekspert",
     percentage: 70,
-    description: "Semantic markup, modern CSS, animations, responsive layouts and also javascript. 1+ years experience building interactive web interfaces and projects.",
+    description: "Semantik maketlash, zamonaviy CSS, animatsiyalar, moslashuvchan (responsive) dizayn va JavaScript. Interaktiv veb-interfeyslar va loyihalar yaratish bo‘yicha 1 yildan ortiq amaliy tajribaga egaman.",
     icon: Globe,
     primary: false,
   },
   {
     name: "Hardware",
-    level: "Proficient",
+    level: "Malakali",
     percentage: 80,
-    description: "PC building, component diagnosis, electronics repair, circuit basics.",
+    description: "PC yig'ish, komponentlar diagnostikasi, elektronika tuzatish, sxemalar asoslari.",
     icon: Wrench,
     primary: false,
   },
   {
     name: "Cybersecurity",
-    level: "Learning",
+    level: "O'rganilyabdi",
     percentage: 60,
-    description: "Network security basics, ethical hacking concepts, CTF challenges.",
+    description: "Tarmoq xavfsizligi, axloqiy xakerlik tushunchalari va CTF (HacktheBox) musobaqalari. Ushbu yo‘nalishda Kiber-hujumlarning oldini olish va tizimlarni himoya qilish bo‘yicha amaliy bilimlar.",
     icon: Shield,
     primary: false,
   },
   {
     name: "AI & Robotics",
-    level: "Enthusiast",
+    level: "Ishqiboz",
     percentage: 75,
-    description: "Machine learning fundamentals, robotics theory, preparing for NewUU.",
+    description: "Mashinali o‘rganish (Machine Learning), robototexnika nazariyasi va NewUU (Yangi O‘zbekiston universiteti)ga kirish uchun tayyorgarlik. Kelajak texnologiyalari poydevorini o‘rganish.",
     icon: Brain,
     primary: false,
   },
@@ -56,11 +56,11 @@ const skills = [
 
 const getLevelColor = (level: string) => {
   switch (level) {
-    case "Expert": return "bg-neon/20 text-neon"
-    case "Advanced": return "bg-blue-500/20 text-blue-400"
-    case "Proficient": return "bg-yellow-500/20 text-yellow-400"
-    case "Learning": return "bg-yellow-500/20 text-yellow-400"
-    case "Enthusiast": return "bg-blue-500/20 text-blue-400"
+    case "Ekspert": return "bg-neon/20 text-neon"
+    case "Rivojlangan": return "bg-blue-500/20 text-blue-400"
+    case "Malakali": return "bg-yellow-500/20 text-yellow-400"
+    case "O'rganilyabdi": return "bg-yellow-500/20 text-yellow-400"
+    case "Ishqiboz": return "bg-blue-500/20 text-blue-400"
     default: return "bg-neon/20 text-neon"
   }
 }
@@ -77,12 +77,12 @@ export function SkillsSection() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          <p className="text-neon text-sm font-mono mb-2">// 03. SKILLS</p>
+          <p className="text-neon text-sm font-mono mb-2">// 03. QOBILYATLARIM</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            My <span className="text-neon text-glow-neon">Toolkit</span>
+            Mening <span className="text-neon text-glow-neon">texnologik arsenalim</span>
           </h2>
           <p className="text-muted-foreground max-w-xl text-sm text-pretty">
-            A collection of technologies I've worked with — from advanced Python scripting to hardware expertise. Always learning, always building.
+            Murakkab Python skriptlarini yozishdan tortib, apparat vositalari (hardware) bilan ishlashgacha bo‘lgan — men egallagan texnologiyalar jamlanmasi. Doimiy o‘rganish va tinimsiz yaratish jarayonidaman.
           </p>
         </motion.div>
 
@@ -104,7 +104,7 @@ export function SkillsSection() {
               {/* Primary badge */}
               <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-neon/20 text-neon text-xs font-medium rounded-full mb-4">
                 <Sparkles size={12} />
-                PRIMARY SKILL
+                ASOSIY MAHORATIM
               </span>
 
               {/* Icon and Title */}
@@ -123,7 +123,7 @@ export function SkillsSection() {
 
               {/* Level badge */}
               <span className={`inline-block px-2 py-0.5 text-xs font-medium rounded ${getLevelColor("Advanced")} mb-3`}>
-                Advanced
+                Malakali
               </span>
 
               {/* Progress bar */}
@@ -139,7 +139,7 @@ export function SkillsSection() {
 
               {/* Description */}
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Backend scripting, automation, data processing, AI/ML experiments. 3+ years hands-on. My strongest language — used for everything from bots to AI projects.
+                Backend skriptlash, avtomatlashtirish, ma'lumotlar bilan ishlash, AI/ML eksperimentlar. 3+ yil amaliy tajriba. Mening eng kuchli dasturlash tilim — botlardan tortib AI loyihalarigacha ishlatiladi.
               </p>
             </div>
           </motion.div>

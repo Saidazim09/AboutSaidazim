@@ -11,15 +11,15 @@ const products = [
   { name: "Smart TV 55\"", price: "4,500,000 so'm", image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=300&h=200&fit=crop" },
   { name: "Laptop Pro", price: "12,800,000 so'm", image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300&h=200&fit=crop" },
   { name: "Kir yuvish mashinasi", price: "3,200,000 so'm", image: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=300&h=200&fit=crop" },
-  { name: "Robot Vacuum", price: "1,900,000 so'm", image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { name: "Robot Vakum", price: "1,900,000 so'm", image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
 ]
 
 const plannedFeatures = [
-  { name: "Stock market integration", icon: TrendingUp },
-  { name: "Crypto portfolio tracker", icon: "B" },
-  { name: "Tuynuk Market ecosystem link", icon: Link2 },
-  { name: "Mobile app (iOS & Android)", icon: Smartphone },
-  { name: "Smart investment insights", icon: Bot },
+  { name: "Fond bozori (aksiyalar bozori) bilan integratsiya qilish.", icon: TrendingUp },
+  { name: "Kripto-portfel kuzatuvchisi (kriptovalyuta aktivlarini kuzatib borish vositasi).", icon: "B" },
+  { name: "Tuynuk Market ekotizimi bilan bog‘lanish.", icon: Link2 },
+  { name: "Mobil ilova (iOS va Android platformalari uchun).", icon: Smartphone },
+  { name: "Aqlli investitsiya tahlillari (investitsiyalar bo‘yicha tushuncha va tavsiyalar).", icon: Bot },
 ]
 
 export function ProjectsSection() {
@@ -36,9 +36,9 @@ export function ProjectsSection() {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          <p className="text-neon text-sm font-mono mb-2">// 04. PROJECTS</p>
+          <p className="text-neon text-sm font-mono mb-2">// 04. LOYIHALARIM</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            What I've <span className="text-neon text-glow-neon">Built</span>
+            Mening <span className="text-neon text-glow-neon">Loyihalarim</span>
           </h2>
         </motion.div>
 
@@ -57,9 +57,9 @@ export function ProjectsSection() {
               <div className="w-3 h-3 rounded-full bg-yellow-500" />
               <div className="w-3 h-3 rounded-full bg-green-500" />
             </div>
-            <span className="text-xs text-muted-foreground font-mono ml-2">tuynuk_market.project</span>
+            <span className="text-xs text-muted-foreground font-mono ml-2">tuynuk_market.loyihasi</span>
             <span className="ml-auto px-2 py-0.5 border border-neon/50 text-neon text-xs font-mono rounded">
-              ACTIVE // 2025-2026
+              FAOL // 2025-2026
             </span>
           </div>
 
@@ -81,7 +81,7 @@ export function ProjectsSection() {
                 </motion.div>
                 <div>
                   <h3 className="text-xl font-bold text-neon">Tuynuk Market</h3>
-                  <p className="text-muted-foreground text-sm">E-commerce Marketplace · Uzbekistan</p>
+                  <p className="text-muted-foreground text-sm">Elektron tijorat bozori(e-commerce marketplace) · Uzbekistan</p>
                   <div className="flex gap-2 mt-1">
                     <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-secondary/50 text-xs rounded">
                       <Apple size={12} /> iOS
@@ -114,24 +114,24 @@ export function ProjectsSection() {
               {activeTab === "OVERVIEW" && (
                 <div className="space-y-3">
                   <p className="text-sm leading-relaxed">
-                    <span className="text-neon font-medium">Tuynuk Market</span> is a modern e-commerce marketplace focused on household appliances and electronics in Uzbekistan. Built with a clean, user-first interface and neon green branding that stands out in the local market.
+                    <span className="text-neon font-medium">Tuynuk Market</span> - O‘zbekistondagi maishiy texnika va elektronika mahsulotlariga ixtisoslashgan zamonaviy savdo platformasi (marketplace). U mahalliy bozorda yaqqol ajralib turuvchi bo'lajak Gigant brend va foydalanuvchi uchun maksimal darajada qulay (user-first) interfeysi bilan yaratilgan.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    As co-founder, I handle the technical architecture, frontend development, and the Telegram channel community (<a href="https://t.me/tuynuk_market" className="text-neon hover:underline">@tuynuk_market</a>). The platform connects buyers and sellers of quality electronics across Uzbekistan. Available on <span className="text-foreground">iOS and Android</span>.
+                    Loyiha hammuassisi (co-founder) sifatida men texnik arxitektura, Frontend & Backend qismi va Telegram hamjamiyatini(<a href="https://t.me/tuynuk_market" className="text-neon hover:underline">@tuynuk_market</a>) rivojlantirish bilan shug‘ullanaman. Ushbu platforma butun O‘zbekiston bo‘ylab sifatli elektronika sotuvchilari va xaridorlarini birlashtiradi. Ilova iOS va Android operatsion tizimlarida mavjud.
                   </p>
 
                   {/* Stats */}
                   <div className="grid grid-cols-2 gap-3 pt-2">
                     <div className="p-3 bg-secondary/30 rounded-lg">
-                      <p className="text-xs text-muted-foreground mb-0.5">Role</p>
-                      <p className="text-sm font-semibold">Co-founder & Dev</p>
+                      <p className="text-xs text-muted-foreground mb-0.5">Lavozim</p>
+                      <p className="text-sm font-semibold">Co-founder & CEO</p>
                     </div>
                     <div className="p-3 bg-secondary/30 rounded-lg">
                       <p className="text-xs text-muted-foreground mb-0.5">Market</p>
                       <p className="text-sm font-semibold">Uzbekistan</p>
                     </div>
                     <div className="p-3 bg-secondary/30 rounded-lg">
-                      <p className="text-xs text-muted-foreground mb-0.5">Platforms</p>
+                      <p className="text-xs text-muted-foreground mb-0.5">Platformalar</p>
                       <p className="text-sm font-semibold flex items-center gap-1">
                         <Smartphone size={14} className="text-neon" /> iOS & Android
                       </p>
@@ -139,7 +139,7 @@ export function ProjectsSection() {
                     <div className="p-3 bg-secondary/30 rounded-lg">
                       <p className="text-xs text-muted-foreground mb-0.5">Status</p>
                       <p className="text-sm font-semibold flex items-center gap-1">
-                        <span className="w-2 h-2 rounded-full bg-green-500" /> Active
+                        <span className="w-2 h-2 rounded-full bg-green-500" /> Faol
                       </p>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ export function ProjectsSection() {
                       whileTap={{ scale: 0.98 }}
                       className="flex items-center gap-2 px-4 py-2 bg-neon text-primary-foreground text-sm font-medium rounded-lg glow-neon-sm"
                     >
-                      VISIT CHANNEL
+                      KANALIGA O'TISH
                     </motion.a>
                     <motion.a
                       href="#connect"
@@ -162,7 +162,7 @@ export function ProjectsSection() {
                       whileTap={{ scale: 0.98 }}
                       className="flex items-center gap-2 px-4 py-2 border border-neon/50 text-neon text-sm font-medium rounded-lg hover:bg-neon/10 transition-colors"
                     >
-                      ASK VEKIN
+                      VEKINga bog'lanish
                     </motion.a>
                   </div>
                 </div>
@@ -170,7 +170,7 @@ export function ProjectsSection() {
 
               {activeTab === "TECH" && (
                 <div className="space-y-3">
-                  <p className="text-sm text-muted-foreground">Technology stack used in Tuynuk Market:</p>
+                  <p className="text-sm text-muted-foreground">Tuynuk Market’da qo‘llanilgan texnologiyalar:</p>
                   <div className="flex flex-wrap gap-2">
                     {["React Native", "Node.js", "PostgreSQL", "Telegram Bot API", "Redux", "Stripe"].map((tech) => (
                       <span key={tech} className="px-3 py-1.5 bg-secondary/50 text-xs rounded-lg border border-border/50">
@@ -190,7 +190,7 @@ export function ProjectsSection() {
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <p className="text-sm font-medium group-hover:text-neon transition-colors">Telegram Channel</p>
+                      <p className="text-sm font-medium group-hover:text-neon transition-colors">Telegram Kanali</p>
                       <p className="text-xs text-muted-foreground">@tuynuk_market</p>
                     </div>
                     <ExternalLink size={16} className="text-muted-foreground" />
@@ -269,7 +269,7 @@ export function ProjectsSection() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-bold text-neon">Tuynuk Invest</h3>
-                  <p className="text-muted-foreground text-xs font-mono">Investment Platform · Stocks · Crypto · Ecosystem</p>
+                  <p className="text-muted-foreground text-xs font-mono">Investitsiya qilish Platformasi · Aksiyalar · Crypto · Ekotizim</p>
                 </div>
                 <motion.span
                   animate={{ opacity: [0.6, 1, 0.6] }}
@@ -277,21 +277,21 @@ export function ProjectsSection() {
                   className="flex items-center gap-1.5 px-2.5 py-1 bg-yellow-500/20 text-yellow-400 text-xs font-medium rounded-full"
                 >
                   <Rocket size={12} />
-                  COMING SOON
+                  TEZ KUNLARDA
                 </motion.span>
               </div>
 
               {/* Description */}
               <p className="text-sm leading-relaxed mb-3">
-                Future investment platform for <span className="text-neon">stocks</span>, <span className="text-neon">crypto</span> and direct integration with Tuynuk Market. Users will be able to invest in our ecosystem.
+                <span className="text-neon">Aksiyalar</span>, <span className="text-neon">Crypto</span> uchun kelajak platformasi va Tuynuk Market bilan bevosita integratsiya. Foydalanuvchilar bizning <span className="text-neon">Ekotizimimizga</span> sarmoya kiritishlari mumkin.
               </p>
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                Tuynuk Invest will bridge the gap between everyday shopping and smart investing — all within the Tuynuk ecosystem. A revolutionary step for Uzbekistan's fintech space.
+                <span className="text-neon">Tuynuk Invest</span> kundalik xarid qilish va aqlli investitsiya o'rtasidagi bo'shliqni bartaraf etadi - barchasi Tuynuk ekotizimida. O‘zbekistonning fintech maydoni uchun inqilobiy qadam.
               </p>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2">
-                {["Stocks", "Crypto", "DeFi", "Tuynuk Ecosystem", "Mobile-First"].map((tag) => (
+                {["Aksiyalar", "Crypto", "DeFi", "TUYNUK Ekotizimi", "Mobile-First"].map((tag) => (
                   <span key={tag} className="px-2.5 py-1 bg-neon/10 text-neon text-xs rounded-lg border border-neon/20">
                     {tag}
                   </span>
@@ -301,7 +301,7 @@ export function ProjectsSection() {
 
             {/* Right - Planned Features */}
             <div className="bg-secondary/20 rounded-xl p-4">
-              <p className="text-xs text-muted-foreground font-mono mb-3">{'>'}_ planned_features[]</p>
+              <p className="text-xs text-muted-foreground font-mono mb-3">{'>'}_ rejalashtirilgan_xususiyatlar[]</p>
               <div className="space-y-2">
                 {plannedFeatures.map((feature) => (
                   <div key={feature.name} className="flex items-center justify-between p-2 bg-secondary/30 rounded-lg">
@@ -313,7 +313,7 @@ export function ProjectsSection() {
                       )}
                       <span className="text-sm">{feature.name}</span>
                     </div>
-                    <span className="text-[10px] text-yellow-400 font-mono">Soon</span>
+                    <span className="text-[10px] text-yellow-400 font-mono">Tez orada</span>
                   </div>
                 ))}
               </div>
