@@ -79,7 +79,7 @@ export function SkillsSection() {
         >
           <p className="text-neon text-sm font-mono mb-2">// 03. QOBILYATLARIM</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Mening <span className="text-neon text-glow-neon">texnologik arsenalim</span>
+            Mening <span className="text-neon text-glow-neon">Texnologik Arsenalim</span>
           </h2>
           <p className="text-muted-foreground max-w-xl text-sm text-pretty">
             Murakkab Python skriptlarini yozishdan tortib, apparat vositalari (hardware) bilan ishlashgacha bo‘lgan — men egallagan texnologiyalar jamlanmasi. Doimiy o‘rganish va tinimsiz yaratish jarayonidaman.

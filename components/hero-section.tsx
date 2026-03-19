@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { MessageCircle, ChevronDown } from "lucide-react"
+import { Typewriter } from 'react-simple-typewriter'
 import Image from "next/image"
 
 export function HeroSection() {
@@ -70,15 +71,33 @@ export function HeroSection() {
               Saidazim Muqumjonov
             </motion.h1>
 
+
+
             {/* Subtitle */}
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.9 }}
-              className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl text-pretty"
-            >
-              Kelajakdagi AI Engineer & Creative Developer | Tuynuk Market Co-Founder
-            </motion.p>
+          <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.9 }}
+        className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl text-pretty"
+>
+        {/* Bu matn doimiy turadi */}
+        Kelajakdagi{' '}
+
+        {/* Bu qism esa yoziladi, o'chiriladi va takrorlanadi */}
+        <span className="text-neon font-semibold">
+          <Typewriter
+            words={['AI Engineer', 'Creative Developer', 'Tuynuk Market Co-Founder']}
+            loop={0} // 0 - cheksiz takrorlanish, 1 - bir marta yozadi
+            cursor
+            cursorStyle='|'
+            typeSpeed={100} // Yozish tezligi (millisekundda)
+            deleteSpeed={70} // O'chirish tezligi
+            delaySpeed={1000} // Bir so'z tugagandan keyin keyingisiga o'tishdan oldingi kutish
+          />
+        </span>
+      </motion.p>
+
+
 
             {/* CTA Button */}
             <motion.a

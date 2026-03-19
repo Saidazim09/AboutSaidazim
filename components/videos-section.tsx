@@ -39,7 +39,7 @@ export function VideosSection() {
             <span className="text-red-500 text-glow-red">Youtube</span> <span className="text-neon text-glow-neon">Videolar</span>
           </h2>
           <p className="text-muted-foreground text-sm">
-            Watch my latest content on <a href="https://www.youtube.com/@vekin_official" target="_blank" rel="noopener noreferrer" className="text-neon hover:underline">@vekin_official</a>
+            Meni eng so'nggi kontentlarni <a href="https://www.youtube.com/@vekin_official" target="_blank" rel="noopener noreferrer" className="text-neon hover:underline">@vekin_official</a> kanalida ko'ring
           </p>
         </motion.div>
 
@@ -86,7 +86,7 @@ export function VideosSection() {
                   <span className="text-xs text-muted-foreground font-mono">@vekin_official</span>
                 </div>
                 <span className="text-xs text-muted-foreground flex items-center gap-1 group-hover:text-neon transition-colors">
-                  Open <ExternalLink size={10} />
+                  Ochish <ExternalLink size={10} />
                 </span>
               </div>
             </motion.a>
@@ -104,7 +104,7 @@ export function VideosSection() {
             className="inline-flex items-center gap-2 px-6 py-2.5 border border-red-500/50 text-red-500 text-sm font-medium rounded-lg hover:bg-red-500/10 transition-colors"
           >
             <Play size={16} className="fill-red-500" />
-            SUBSCRIBE ON YOUTUBE
+            YOUTUBE KANALIMGA OBUNA BO'LING
           </motion.a>
         </div>
       </div>

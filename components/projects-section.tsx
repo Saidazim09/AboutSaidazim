@@ -81,7 +81,7 @@ export function ProjectsSection() {
                 </motion.div>
                 <div>
                   <h3 className="text-xl font-bold text-neon">Tuynuk Market</h3>
-                  <p className="text-muted-foreground text-sm">Elektron tijorat bozori(e-commerce marketplace) · Uzbekistan</p>
+                  <p className="text-muted-foreground text-sm">Elektron tijorat bozori (e-commerce marketplace) · Uzbekistan</p>
                   <div className="flex gap-2 mt-1">
                     <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-secondary/50 text-xs rounded">
                       <Apple size={12} /> iOS

@@ -27,7 +27,7 @@ export function AboutSection() {
         >
           <p className="text-neon text-sm font-mono mb-2">// 01. MEN Haqimda</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Who is <span className="text-neon text-glow-neon">VEKIN?</span>
+            Kim o'zi <span className="text-neon text-glow-neon">VEKIN?</span>
           </h2>
         </motion.div>
 
@@ -61,7 +61,7 @@ export function AboutSection() {
 
             {/* VEKIN Explain Card */}
             <div className="glass-card rounded-xl p-4 border border-border/50">
-              <p className="text-xs text-neon font-mono mb-2">{'>'}_ VEKIN.explain()</p>
+              <p className="text-xs text-neon font-mono mb-2">{'>'}_ VEKIN.ma'nosi()</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 <span className="text-foreground font-medium">VEKIN</span> — bu mening Kiber-Pasportim. Bir paytlar oddiygina o'yin tahallusi sifatida boshlangan bu nom, bugun men raqamli koinotda faxr bilan olib yuradigan nomga aylandi. U ijodkorlik, texnik qiziquvchanlik va yaratishga bo'lgan intilishni anglatadi. Virtual olamlardan tortib, real kodlar va startaplargacha — men kiber-makonda VEKIN sifatida mavjudman va ijod qilaman.
               </p>
