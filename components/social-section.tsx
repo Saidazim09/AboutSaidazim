@@ -34,8 +34,8 @@ const socials = [
   },
   {
     name: "YouTube",
-    handle: "@vekin_official",
-    url: "https://www.youtube.com/@vekin_official",
+    handle: "@Saidazim_verified",
+    url: "https://www.youtube.com/@Saidazim_verified",
     description: "Texnik qo‘llanmalar, loyihalar tahlili va dasturlashga oid videolar — o‘zbek va ingliz tillarida.",
     cta: "SUBSCRIBE",
     color: "from-red-500/20 to-orange-500/20",
