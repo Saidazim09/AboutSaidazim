@@ -47,10 +47,10 @@ const socials = [
     ),
   },
   {
-    name: "Nolbir Market",
-    handle: "t.me/nolbirmarket",
-    url: "https://t.me/tuynuk_market",
-    description: "Nolbir Market’ning rasmiy Telegram kanali — elektronika va maishiy texnika mahsulotlari uchun kundalik manfaatli takliflar.",
+    name: "Saydis Market",
+    handle: "t.me/saydis_market",
+    url: "https://t.me/saydis_market",
+    description: "Saydis Market’ning rasmiy Telegram kanali — elektronika va maishiy texnika mahsulotlari uchun kundalik manfaatli takliflar.",
     cta: "KANALGA OBUNA BO'LING",
     color: "from-emerald-500/20 to-green-500/20",
     borderColor: "border-emerald-500/30",
@@ -103,7 +103,7 @@ export function SocialSection() {
             Ijtimoiy Tarmoqdagi <span className="text-neon text-glow-neon">SAHIFALARIM</span>
           </h2>
           <p className="text-muted-foreground max-w-xl text-sm text-pretty">
-            Barcha platformalar orqali VEKIN bilan bog‘laning — texnologik kontentlar, loyiha yangiliklari va to‘g‘ridan-to‘g‘ri muloqot.
+            Barcha platformalar orqali SAIDAZIM bilan bog‘laning — texnologik kontentlar, loyiha yangiliklari va to‘g‘ridan-to‘g‘ri muloqot.
           </p>
         </motion.div>
 
