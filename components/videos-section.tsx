@@ -39,7 +39,7 @@ export function VideosSection() {
             <span className="text-red-500 text-glow-red">Youtube</span> <span className="text-neon text-glow-neon">Videolar</span>
           </h2>
           <p className="text-muted-foreground text-sm">
-            Meni eng so'nggi kontentlarni <a href="https://www.youtube.com/@vekin_official" target="_blank" rel="noopener noreferrer" className="text-neon hover:underline">@vekin_official</a> kanalida ko'ring
+            Meni eng so'nggi kontentlarni <a href="https://www.youtube.com/@Saidazim_verified" target="_blank" rel="noopener noreferrer" className="text-neon hover:underline">@Saidazim_verified</a> kanalida ko'ring
           </p>
         </motion.div>
 
@@ -83,7 +83,7 @@ export function VideosSection() {
                   <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center">
                     <Play className="text-red-500" size={10} />
                   </div>
-                  <span className="text-xs text-muted-foreground font-mono">@vekin_official</span>
+                  <span className="text-xs text-muted-foreground font-mono">@Saidazim_verified</span>
                 </div>
                 <span className="text-xs text-muted-foreground flex items-center gap-1 group-hover:text-neon transition-colors">
                   Ochish <ExternalLink size={10} />
@@ -96,7 +96,7 @@ export function VideosSection() {
         {/* Subscribe Button */}
         <div className="flex justify-center">
           <motion.a
-            href="https://www.youtube.com/@vekin_official?sub_confirmation=1"
+            href="https://www.youtube.com/@Saidazim_verified?sub_confirmation=1"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.02 }}
