@@ -86,7 +86,7 @@ export function HeroSection() {
         {/* Bu qism esa yoziladi, o'chiriladi va takrorlanadi */}
         <span className="text-neon font-semibold">
           <Typewriter
-            words={['AI Engineer', 'Creative Developer', 'Tuynuk Market Co-Founder']}
+            words={['AI Engineer', 'Creative Developer', 'Founder of Saydis Market']}
             loop={0} // 0 - cheksiz takrorlanish, 1 - bir marta yozadi
             cursor
             cursorStyle='|'
