@@ -88,9 +88,11 @@
     @apply bg-background text-foreground;
     background: linear-gradient(180deg, #0A0F1C 0%, #0D1425 50%, #0A1628 100%);
     min-height: 100vh;
+    overflow-x: hidden;
   }
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 }
 
