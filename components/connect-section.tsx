@@ -1,3 +1,4 @@
+
 "use client"
 
 import { useState } from "react"
@@ -62,10 +63,10 @@ export function ConnectSection() {
         >
           <p className="text-neon text-sm font-mono mb-2">// 07. BOG'LANISH</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Let's <span className="text-neon text-glow-neon">Connect</span>
+            Keling, <span className="text-neon text-glow-neon">Bog'lanamiz</span>
           </h2>
           <p className="text-muted-foreground max-w-xl text-sm text-pretty">
-            Have a project idea, collaboration proposal, or just want to say hi? I'm always open to new opportunities and interesting conversations.
+            Loyiha g'oyangiz, hamkorlik taklifingiz bor yoki shunchaki salom demoqchimisiz? Men har doim yangi imkoniyatlar va qiziqarli suhbatlarga ochiqman.
           </p>
         </motion.div>
 
@@ -91,14 +92,14 @@ export function ConnectSection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-bold">Crypto Wallet</h3>
-                    <p className="text-xs text-neon font-mono">Send any crypto</p>
+                    <h3 className="font-bold">Kripto Hamyon</h3>
+                    <p className="text-xs text-neon font-mono">Har qanday kripto yuboring</p>
                     <p className="text-xs text-muted-foreground">TON Blockchain</p>
                   </div>
                 </div>
                 
                 <div className="p-2.5 bg-secondary/50 rounded-lg mb-3">
-                  <p className="text-[10px] text-muted-foreground font-mono mb-1">Wallet Address:</p>
+                  <p className="text-[10px] text-muted-foreground font-mono mb-1">Hamyon manzili:</p>
                   <code className="text-xs text-neon break-all font-mono">
                     UQA21tfvAHyBJJoQVe1T5ogoot3SLoAavgeHooP176S_etwC
                   </code>
@@ -111,10 +112,10 @@ export function ConnectSection() {
                   className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-neon/10 text-neon text-sm font-medium rounded-lg border border-neon/30 hover:bg-neon/20 transition-colors"
                 >
                   <Copy size={14} />
-                  {copied === "wallet" ? "COPIED!" : "COPY WALLET ADDRESS"}
+                  {copied === "wallet" ? "NUSXALANDI!" : "HAMYON MANZILINI NUSXALASH"}
                 </motion.button>
 
-                <p className="text-[10px] text-muted-foreground text-center mt-2">Support my work with TON or any crypto</p>
+                <p className="text-[10px] text-muted-foreground text-center mt-2">TON yoki boshqa kripto bilan ishimni qo'llab-quvvatlang</p>
               </div>
             </div>
 
@@ -130,7 +131,7 @@ export function ConnectSection() {
 
                 {/* Card Number */}
                 <div className="mt-12 mb-5">
-                  <p className="text-xl md:text-2xl font-mono text-white tracking-widest">
+                  <p className="text-base sm:text-xl md:text-2xl font-mono text-white tracking-widest break-all sm:break-normal">
                     4916 9903 5169 6254
                   </p>
                 </div>
@@ -152,7 +153,7 @@ export function ConnectSection() {
                   className="absolute bottom-2 right-4 text-[10px] text-white/60 hover:text-white/80 transition-colors flex items-center gap-1"
                 >
                   {copied === "card" ? <Check size={10} /> : null}
-                  {copied === "card" ? "copied!" : "tap to copy"}
+                  {copied === "card" ? "nusxalandi!" : "nusxalash uchun bosing"}
                 </motion.button>
               </div>
             </div>
@@ -175,7 +176,7 @@ export function ConnectSection() {
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label htmlFor="name" className="text-xs text-muted-foreground mb-1.5 block font-mono">
-                  name *
+                  ism *
                 </label>
                 <input
                   type="text"
@@ -184,7 +185,7 @@ export function ConnectSection() {
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
                   className="w-full px-4 py-2.5 rounded-lg bg-secondary/50 border border-border focus:border-neon focus:outline-none focus:ring-1 focus:ring-neon/30 transition-all text-sm"
-                  placeholder="Your name"
+                  placeholder="Ismingiz"
                 />
               </div>
 
@@ -205,7 +206,7 @@ export function ConnectSection() {
 
               <div>
                 <label htmlFor="message" className="text-xs text-muted-foreground mb-1.5 block font-mono">
-                  message *
+                  xabar *
                 </label>
                 <textarea
                   id="message"
@@ -214,7 +215,7 @@ export function ConnectSection() {
                   required
                   rows={4}
                   className="w-full px-4 py-2.5 rounded-lg bg-secondary/50 border border-border focus:border-neon focus:outline-none focus:ring-1 focus:ring-neon/30 transition-all resize-none text-sm"
-                  placeholder="What's on your mind?"
+                  placeholder="Nimani o'ylayapsiz?"
                 />
               </div>
 
@@ -225,7 +226,7 @@ export function ConnectSection() {
                 className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-neon text-primary-foreground font-semibold rounded-lg glow-neon-sm hover:glow-neon transition-all"
               >
                 <Send size={16} />
-                SEND MESSAGE
+                XABAR YUBORISH
               </motion.button>
             </form>
           </motion.div>
@@ -244,8 +245,8 @@ export function ConnectSection() {
           >
           <p className="text-xs text-neon font-mono mb-4">{'>'}_ quick_contact</p>
     {[
-        { label: "Telegram (Personal)", value: "t.me/Saidazim_verified", icon: Send, color: "text-blue-400", isSpecial: true, specialType: "beam" },
-        { label: "Telegram (Channel)", value: "t.me/vekin_officixl", icon: Send, color: "text-sky-400", isSpecial: true, specialType: "pulse" },
+        { label: "Telegram (Shaxsiy)", value: "t.me/Saidazim_verified", icon: Send, color: "text-blue-400", isSpecial: true, specialType: "beam" },
+        { label: "Telegram (Kanal)", value: "t.me/vekin_officixl", icon: Send, color: "text-sky-400", isSpecial: true, specialType: "pulse" },
         { label: "Email", value: "vekinreacts@gmail.com", icon: Mail, color: "text-yellow-400", isSpecial: false },
         { label: "Instagram", value: "@vekin_verified", icon: Instagram, color: "text-pink-400", isSpecial: false }
     ].map((contact, index) => (
@@ -308,3 +309,4 @@ export function ConnectSection() {
     </section>
   )
 }
+
