@@ -94,7 +94,7 @@ export function ProjectsSection() {
               </div>
 
               {/* Tabs */}
-              <div className="flex gap-1 mb-4">
+              <div className="flex flex-wrap gap-1 mb-4">
                 {tabs.map((tab) => (
                   <button
                     key={tab}
@@ -145,7 +145,7 @@ export function ProjectsSection() {
                   </div>
 
                   {/* CTA Buttons */}
-                  <div className="flex gap-3 pt-2">
+                  <div className="flex flex-wrap gap-3 pt-2">
                     <motion.a
                       href="https://t.me/tuynuk_market"
                       target="_blank"
