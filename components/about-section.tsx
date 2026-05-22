@@ -95,7 +95,7 @@ export function AboutSection() {
             </div>
 
             {/* Info Cards Grid */}
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 gap-3">
               {infoCards.map((card, index) => (
                 <motion.div
                   key={card.label}
