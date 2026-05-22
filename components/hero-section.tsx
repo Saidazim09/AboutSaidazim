@@ -119,7 +119,7 @@ export function HeroSection() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center lg:justify-end mt-6 lg:mt-0"
           >
             <div className="relative">
               {/* Glow Effect */}
@@ -130,7 +130,7 @@ export function HeroSection() {
               <motion.div
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="relative w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[480px] rounded-3xl overflow-hidden border-2 border-neon/30 glow-neon"
+                className="relative w-48 h-64 sm:w-64 sm:h-80 md:w-80 md:h-96 lg:w-96 lg:h-[480px] rounded-3xl overflow-hidden border-2 border-neon/30 glow-neon"
               >
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/portret-ODyGDh8vKXK4b4uBedVoaW9M6G8JDr.jpg"
