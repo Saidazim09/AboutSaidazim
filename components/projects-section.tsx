@@ -57,7 +57,7 @@ export function ProjectsSection() {
               <div className="w-3 h-3 rounded-full bg-yellow-500" />
               <div className="w-3 h-3 rounded-full bg-green-500" />
             </div>
-            <span className="text-xs text-muted-foreground font-mono ml-2">tuynuk_market.loyihasi</span>
+            <span className="text-xs text-muted-foreground font-mono ml-2">nolbir_market.loyihasi</span>
             <span className="ml-auto px-2 py-0.5 border border-neon/50 text-neon text-xs font-mono rounded">
               FAOL // 2025-2026
             </span>
@@ -80,7 +80,7 @@ export function ProjectsSection() {
                   />
                 </motion.div>
                 <div>
-                  <h3 className="text-xl font-bold text-neon">Tuynuk Market</h3>
+                  <h3 className="text-xl font-bold text-neon">Nolbir Market</h3>
                   <p className="text-muted-foreground text-sm">Elektron tijorat bozori (e-commerce marketplace) · Uzbekistan</p>
                   <div className="flex gap-2 mt-1">
                     <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-secondary/50 text-xs rounded">
@@ -114,10 +114,10 @@ export function ProjectsSection() {
               {activeTab === "OVERVIEW" && (
                 <div className="space-y-3">
                   <p className="text-sm leading-relaxed">
-                    <span className="text-neon font-medium">Tuynuk Market</span> - O‘zbekistondagi maishiy texnika va elektronika mahsulotlariga ixtisoslashgan zamonaviy savdo platformasi (marketplace). U mahalliy bozorda yaqqol ajralib turuvchi bo'lajak Gigant brend va foydalanuvchi uchun maksimal darajada qulay (user-first) interfeysi bilan yaratilgan.
+                    <span className="text-neon font-medium">Nolbir Market</span> - O‘zbekistondagi maishiy texnika va elektronika mahsulotlariga ixtisoslashgan zamonaviy savdo platformasi (marketplace). U mahalliy bozorda yaqqol ajralib turuvchi bo'lajak Gigant brend va foydalanuvchi uchun maksimal darajada qulay (user-first) interfeysi bilan yaratilgan.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Loyiha hammuassisi (co-founder) sifatida men texnik arxitektura, Frontend & Backend qismi va Telegram hamjamiyatini(<a href="https://t.me/tuynuk_market" className="text-neon hover:underline">@tuynuk_market</a>) rivojlantirish bilan shug‘ullanaman. Ushbu platforma butun O‘zbekiston bo‘ylab sifatli elektronika sotuvchilari va xaridorlarini birlashtiradi. Ilova iOS va Android operatsion tizimlarida mavjud.
+                    Loyiha hammuassisi (co-founder) sifatida men texnik arxitektura, Frontend & Backend qismi va Telegram hamjamiyatini(<a href="https://t.me/nolbirmarket" className="text-neon hover:underline">@nolbir_market</a>) rivojlantirish bilan shug‘ullanaman. Ushbu platforma butun O‘zbekiston bo‘ylab sifatli elektronika sotuvchilari va xaridorlarini birlashtiradi. Ilova iOS va Android operatsion tizimlarida mavjud.
                   </p>
 
                   {/* Stats */}
@@ -147,7 +147,7 @@ export function ProjectsSection() {
                   {/* CTA Buttons */}
                   <div className="flex flex-wrap gap-3 pt-2">
                     <motion.a
-                      href="https://t.me/tuynuk_market"
+                      href="https://t.me/nolbirmarket"
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.02 }}
@@ -170,7 +170,7 @@ export function ProjectsSection() {
 
               {activeTab === "TECH" && (
                 <div className="space-y-3">
-                  <p className="text-sm text-muted-foreground">Tuynuk Market’da qo‘llanilgan texnologiyalar:</p>
+                  <p className="text-sm text-muted-foreground">Nolbir Market’da qo‘llanilgan texnologiyalar:</p>
                   <div className="flex flex-wrap gap-2">
                     {["React Native", "Node.js", "PostgreSQL", "Telegram Bot API", "Redux", "Stripe"].map((tech) => (
                       <span key={tech} className="px-3 py-1.5 bg-secondary/50 text-xs rounded-lg border border-border/50">
@@ -183,7 +183,7 @@ export function ProjectsSection() {
 
               {activeTab === "LINKS" && (
                 <div className="space-y-3">
-                  <a href="https://t.me/tuynuk_market" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-secondary/30 rounded-lg hover:bg-secondary/50 transition-colors group">
+                  <a href="https://t.me/nolbirmarket" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-secondary/30 rounded-lg hover:bg-secondary/50 transition-colors group">
                     <div className="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center">
                       <svg viewBox="0 0 24 24" className="w-4 h-4 fill-blue-400">
                         <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
@@ -191,7 +191,7 @@ export function ProjectsSection() {
                     </div>
                     <div className="flex-1">
                       <p className="text-sm font-medium group-hover:text-neon transition-colors">Telegram Kanali</p>
-                      <p className="text-xs text-muted-foreground">@tuynuk_market</p>
+                      <p className="text-xs text-muted-foreground">@nolbirmarket</p>
                     </div>
                     <ExternalLink size={16} className="text-muted-foreground" />
                   </a>
@@ -208,12 +208,12 @@ export function ProjectsSection() {
                   <div className="w-2 h-2 rounded-full bg-yellow-500/70" />
                   <div className="w-2 h-2 rounded-full bg-green-500/70" />
                 </div>
-                <span className="text-[10px] text-muted-foreground font-mono">tuynuk-market.uz</span>
+                <span className="text-[10px] text-muted-foreground font-mono">nolbir.market</span>
               </div>
 
               {/* Mini header */}
               <div className="flex items-center justify-between mb-3 pb-2 border-b border-border/30">
-                <span className="text-neon font-bold text-sm">Tuynuk Market</span>
+                <span className="text-neon font-bold text-sm">Nolbir Market</span>
                 <div className="flex gap-2 text-[10px] text-muted-foreground">
                   <span>Bosh sahifa</span>
                   <span>Mahsulotlar</span>
@@ -262,13 +262,13 @@ export function ProjectsSection() {
                 <div className="relative w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 bg-black p-1.5 border border-neon/30">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_1_2026-03-14_18-15-56-Zw1OpxcHR9rCzd2ILa5NeFVwolMJYI.jpg"
-                    alt="Tuynuk Invest Logo"
+                    alt="Nolbir Invest Logo"
                     fill
                     className="object-contain"
                   />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-lg font-bold text-neon">Tuynuk Invest</h3>
+                  <h3 className="text-lg font-bold text-neon">Nolbir Invest</h3>
                   <p className="text-muted-foreground text-xs font-mono">Investitsiya qilish Platformasi · Aksiyalar · Crypto · Ekotizim</p>
                 </div>
                 <motion.span
@@ -283,15 +283,15 @@ export function ProjectsSection() {
 
               {/* Description */}
               <p className="text-sm leading-relaxed mb-3">
-                <span className="text-neon">Aksiyalar</span>, <span className="text-neon">Crypto</span> uchun kelajak platformasi va Tuynuk Market bilan bevosita integratsiya. Foydalanuvchilar bizning <span className="text-neon">Ekotizimimizga</span> sarmoya kiritishlari mumkin.
+                <span className="text-neon">Aksiyalar</span>, <span className="text-neon">Crypto</span> uchun kelajak platformasi va Nolbir Market bilan bevosita integratsiya. Foydalanuvchilar bizning <span className="text-neon">Ekotizimimizga</span> sarmoya kiritishlari mumkin.
               </p>
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                <span className="text-neon">Tuynuk Invest</span> kundalik xarid qilish va aqlli investitsiya o'rtasidagi bo'shliqni bartaraf etadi - barchasi Tuynuk ekotizimida. O‘zbekistonning fintech maydoni uchun inqilobiy qadam.
+                <span className="text-neon">Nolbir Invest</span> kundalik xarid qilish va aqlli investitsiya o'rtasidagi bo'shliqni bartaraf etadi - barchasi Nolbir ekotizimida. O‘zbekistonning fintech maydoni uchun inqilobiy qadam.
               </p>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2">
-                {["Aksiyalar", "Crypto", "DeFi", "TUYNUK Ekotizimi", "Mobile-First"].map((tag) => (
+                {["Aksiyalar", "Crypto", "DeFi", "NOLBIR Ekotizimi", "Mobile-First"].map((tag) => (
                   <span key={tag} className="px-2.5 py-1 bg-neon/10 text-neon text-xs rounded-lg border border-neon/20">
                     {tag}
                   </span>
